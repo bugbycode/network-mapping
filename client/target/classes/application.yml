@@ -1,0 +1,10 @@
+spring:
+  netty:
+    tunnel:
+      host: localhost
+      port: 6000
+      username: admin
+      password: admin
+      mapping: 192.168.1.65@8081@6001,192.168.1.65@22@6002 #多个映射信息使用逗号分隔
+loggin:
+  config: classpath:log4j2.xml        

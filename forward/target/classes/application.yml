@@ -1,0 +1,8 @@
+spring:
+  netty:
+    tunnel:
+      port: 6000
+      so_backlog: 50
+      authinfo: admin@admin #认证信息 格式为“ 账号@密码” 多个使用逗号隔开
+loggin:
+  config: classpath:log4j2.xml        
